@@ -1,0 +1,14 @@
+{
+    "version" : 1,
+    "name" : "BLOG-APP MERN",
+    "builds" : [
+        {
+            "src" : "app.js", "use" : "@vercel/node"
+        }
+    ],
+    "routes" : [
+        {
+            "src" : "/(.*)", "dest" : "/app.js"
+        }
+    ]
+}
